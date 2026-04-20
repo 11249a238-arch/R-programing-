@@ -3,13 +3,13 @@ University Course Enrollment
 R Program
 # Data
 departments <- c("CSE", "ECE", "IT", "Mechanical")
-students <- c(120, 80, 60, 40)
+students <- c(180, 60, 20, 50)
 # Pie Chart
 pie(
 students,
 labels = departments,
 main = "Student Enrollment per Department",
-col = c("skyblue", "orange", "green", "pink")
+col = c("darkblue", "red", "green", "purple")
 )
 # Bar Chart
 barplot(
@@ -18,7 +18,7 @@ names.arg = departments,
 main = "Number of Students per Department",
 xlab = "Department",
 ylab = "Number of Students",
-col = c("skyblue", "orange", "green", "pink")
+col = c("blue", "red", "green", "purple")
 )
 
 8.2
@@ -26,7 +26,7 @@ Retail Store Sales Distribution
 R Program
 # Data
 category <- c("Electronics", "Clothing", "Accessories", "Home Appliances")
-sales <- c(150000, 75000, 50000, 25000)
+sales <- c(170000, 80000, 49000, 28000)
 # Pie Chart
 pie(
 sales,
@@ -96,7 +96,7 @@ Agricultural Crop Production
 R Program
 # Data
 crop <- c("Rice", "Wheat", "Maize", "Onion")
-production <- c(200, 150, 100, 50)
+production <- c(290, 250, 170, 70)
 # Pie Chart
 pie(
 production,
