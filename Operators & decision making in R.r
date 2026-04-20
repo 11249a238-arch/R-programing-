@@ -104,6 +104,7 @@ print("Credit Card Rejected")
 Hospital Patient Risk Classification
 R program:
 sugar <- 240
+bp <- 80
 if(bp > 140 & sugar > 200){
 risk <- "High Risk"
 } else if((bp >= 120 & bp <= 140) | (sugar >= 140 & sugar <= 200)){
