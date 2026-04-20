@@ -200,13 +200,14 @@ payroll(55000)
 3.16
 Smart City Water Usage Monitoring
 R program:
-water_usage_status(1200)
+water_usage_status <- function(litres){
 if(litres <= 500){
 "Normal"
 } else if(litres <= 1000){
 "High Usage"
 } else {
+
 "Critical"
 }
 }
-water_usage_status(2200)
+water_usage_status(1900)
