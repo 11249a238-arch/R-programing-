@@ -1,7 +1,7 @@
 5.1
 Employee Name Standardization
 R program:
-names <- c("arun", "Bala", "chitra")
+names <- c("ram", "Bala", "chitra")
 upper_names <- toupper(names)
 name_length <- nchar(upper_names)
 upper_names
@@ -10,7 +10,7 @@ name_length
 5.2
 Student Email Processing
 R prpogram:
-emails <- c("arun@gmail.com", "meena@yahoo.com", "ravi@outlook.com")
+emails <- c("arul@gmail.com", "meera@yahoo.com", "rahul@outlook.com")
 usernames <- sub("@.*", "", emails)
 usernames
 
@@ -24,7 +24,7 @@ clean_input
 5.4
 Product Code Validation
 R program:
-product_codes <- c("PRD101", "PRD202", "ABC303")
+product_codes <- c("PRD9001", "PRD8702", "ABC9803")
 valid_codes <- startsWith(product_codes, "PRD")
 valid_codes
 
@@ -38,7 +38,7 @@ updated_report
 5.6
 Password Strength Checker
 R program:
-password <- "secure123"
+password <- "secure900"
 if(nchar(password) >= 8){
 print("Strong Password")
 } else {
@@ -62,7 +62,7 @@ extensions
 5.9
 Student Name Abbreviation
 R program:
-names <- c("Gayathri", "Karthik", "Anitha")
+names <- c("Goutham", "Karthikaya", "Anuksha")
 abbr <- substr(names, 1, 3)
 abbr
 
@@ -89,7 +89,7 @@ Product Inventory Text Cleaning
 
 R Program
 products <- data.frame(
-Product = c(" apple phone ", "SAMSUNG-TV ", " dell laptop"),
+Product = c(" lenovo phone ", "SAMSUNG-TV ", " dell laptop"),
 Code = c("PRD-101-APL", "PRD-202-SAM", "PRD-303-DEL")
 )
 products$Product <- trimws(products$Product)
