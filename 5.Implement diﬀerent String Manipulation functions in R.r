@@ -75,14 +75,14 @@ matched_names
 
 5.11
 University Student Data Cleaning System
-R program: 
-Raw Data (Before Cleaning)
+R program:
 students <- data.frame(
 Name = c(" Gayathri ", "RAVI ", " meena"),
 Email = c("Gayu@UNIV.edu", "ravi@univ.edu", "meena@gmail.com"),
 Department = c(" cse", "ECE ", " Cse ")
 )
 students
+
 
 5.12
 Product Inventory Text Cleaning
