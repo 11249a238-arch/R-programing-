@@ -3,21 +3,21 @@ College Student Record System
 R program:
 # Student details
 students <- data.frame(
-RollNo = c(101, 102, 103),
-Name = c("Ravi", "Meena", "Karthik"),
+RollNo = c(201, 202, 203),
+Name = c("Rahul", "Meera", "Karthikaya"),
 Dept = c("CSE", "ECE", "IT")
 )
 # Student marks
 marks <- data.frame(
-Marks = c(78, 85, 90)
+Marks = c(65, 95, 90)
 )
 # Join columns
 student_data <- cbind(students, marks)
 student_data
 # Add new student records
 new_students <- data.frame(
-RollNo = c(104),
-Name = c("Anjali"),
+RollNo = c(504),
+Name = c("Anitha"),
 Dept = c("CSE"),
 Marks = c(88)
 )
@@ -28,12 +28,12 @@ final_data
 Employee Management System
 R program:
 employee_details <- data.frame(
-EmpID = c(1, 2, 3),
+EmpID = c(121, 221, 321),
 Name = c("Amit", "Sneha", "Raj"),
 Dept = c("HR", "IT", "Finance")
 )
 salary_details <- data.frame(
-Salary = c(35000, 45000, 50000)
+Salary = c(39000, 55000, 60000)
 )
 # Join columns
 employees <- cbind(employee_details, salary_details)
@@ -78,7 +78,7 @@ Product Inventory System
 R program:
 products <- data.frame(
 ProductID = c(1, 2, 3),
-ProductName = c("Pen", "Book", "Bag")
+ProductName = c("Pencil", "Book", "Bag")
 )
 stock <- data.frame(
 Quantity = c(100, 50, 30)
@@ -90,7 +90,7 @@ inventory
 new_product <- data.frame(
 ProductID = 4,
 ProductName = "Bottle",
-Quantity = 75
+Quantity = 60
 )
 inventory <- rbind(inventory, new_product)
 inventory
@@ -102,12 +102,12 @@ R Program:
 # Student details
 students <- data.frame(
 RollNo = c(1, 2, 3),
-Name = c("Arun", "Bina", "Charan"),
+Name = c("Arjun", "Sita", "Charitha"),
 Dept = c("CSE", "ECE", "IT")
 )
 # Semester marks
 marks <- data.frame(
-Sem1 = c(78, 82, 90),
+Sem1 = c(79, 88, 90),
 Sem2 = c(80, 85, 88)
 )
 # Attendance
@@ -120,7 +120,7 @@ student_records
 # New admissions
 new_students <- data.frame(
 RollNo = c(4, 5),
-Name = c("Deepa", "Eshan"),
+Name = c("Deepika", "Kishan"),
 Dept = c("CSE", "IT"),
 Sem1 = c(85, 89),
 Sem2 = c(87, 91),
@@ -136,14 +136,14 @@ R program:
 # Employee details
 emp_details <- data.frame(
 EmpID = c(101, 102),
-Name = c("Rahul", "Sneha"),
+Name = c("Charan", "Snehitha"),
 Dept = c("IT", "HR")
 )
 # Salary components
 salary <- data.frame(
 Basic = c(30000, 35000),
-HRA = c(6000, 7000),
-DA = c(3000, 3500)
+HRA = c(5000, 6000),
+DA = c(3000, 3400)
 )
 # Performance rating
 rating <- data.frame(
@@ -155,10 +155,10 @@ payroll
 # Add new employee
 new_emp <- data.frame(
 EmpID = 103,
-Name = "Kiran",
+Name = "Shashank",
 Dept = "Finance",
-Basic = 40000,
-HRA = 8000,
+Basic = 49000,
+HRA = 9000,
 DA = 4000,
 Rating = 4.8
 )
@@ -170,9 +170,9 @@ Hospital Information System
 R program:
 # Patient details
 patients <- data.frame(
-PatientID = c(201, 202),
+PatientID = c(2071, 2872),
 Name = c("Suresh", "Lakshmi"),
-Age = c(45, 38)
+Age = c(49, 34)
 )
 # Diagnosis
 diagnosis <- data.frame(
@@ -188,7 +188,7 @@ hospital_data
 # New patient record
 new_patient <- data.frame(
 PatientID = 203,
-Name = "Arjun",
+Name = "Arul",
 Age = 52,
 Disease = "Cardiac",
 Amount = 25000
@@ -260,7 +260,7 @@ University Academic Management System
 R program:
 students <- data.frame(
 RollNo = c(1, 2, 3),
-Name = c("Arun", "Bina", "Charan"),
+Name = c("Arul", "Bharath", "Karen"),
 Dept = c("CSE", "ECE", "IT")
 )
 marks <- data.frame(
@@ -312,7 +312,7 @@ Hospital Information System
 R program:
 patients <- data.frame(
 PatientID = c(201, 202, 203),
-Name = c("Suresh", "Lakshmi", "Arjun"),
+Name = c("Ramesh", "Lakshmi", "Arjun"),
 Age = c(45, 38, 52)
 )
 diagnosis <- data.frame(
