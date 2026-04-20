@@ -5,9 +5,9 @@ R Program
 students <- data.frame(
 Name =
 c("Arjun","Meena","Rahul","Anitha","Kiran","Sneha","Ravi","Gayathri","Suresh","Lakshmi"),
-Maths = c(85,90,70,95,80,88,75,92,68,86),
-Science = c(78,88,60,92,85,80,70,90,75,82),
-English = c(92,80,75,98,88,85,78,91,80,87)
+Maths = c(80,92,73,95,85,88,72,92,76,86),
+Science = c(72,80,63,92,89,82,75,94,72,81),
+English = c(92,70,75,92,89,84,88,61,60,84)
 )
 # Step 2: Mean, Median, SD
 mean_marks <- sapply(students[ ,2:4], mean)
@@ -31,9 +31,9 @@ R Program
 # Step 1: Create dataset
 sales <- data.frame(
 Product = c("Phone","Laptop","Headset","Bag","Camera","Mouse","Keyboard"),
-Day1 = c(5,3,7,10,2,8,6),
-Day2 = c(4,2,8,12,3,7,5),
-Day3 = c(6,4,6,8,1,9,7),
+Day1 = c(1,6,7,16,1,5,6),
+Day2 = c(10,2,5,12,2,4,7),
+Day3 = c(6,3,8,2,11,7,8),
 Day4 = c(5,3,7,11,2,6,6),
 Day5 = c(7,5,5,9,3,8,8)
 )
@@ -56,7 +56,7 @@ R Program
 # Dataset
 patients <- data.frame(
 PatientID = 201:210,
-Name = c("Suresh","Lakshmi","Arjun","Meena","Ravi","Anitha","Kiran","Sneha","Gayathri","Ravi2"),
+Name = c("Surya","Lucky","Aameer","Menakshi","Ragul","Anitha","Naren","Smirti","Gayathri","Ragu"),
 Age = c(45,38,52,29,60,48,55,35,42,50)
 )
 # Statistical analysis
