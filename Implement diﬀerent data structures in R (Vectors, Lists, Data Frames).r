@@ -2,7 +2,7 @@
 Student Marks Processing (Vectors)
 R program:
 Vector is suitable because all values are of the same data type.
-marks <- c(78, 85, 90, 88, 76)
+marks <- c(70, 78, 80, 92, 76)
 total <- sum(marks)
 average <- mean(marks)
 highest <- max(marks)
@@ -13,7 +13,7 @@ highest
 6.2
 Temperature Monitoring System (Vectors)
 R program:
-temperature <- c(32, 33, 31, 34, 35, 36, 33)
+temperature <- c(34, 33, 32, 37, 35, 36, 33)
 min_temp <- min(temperature)
 max_temp <- max(temperature)
 min_temp
@@ -24,9 +24,9 @@ Employee Profile Storage (Lists)
 R program:
 List is suitable because it supports diﬀerent data types.
 employee <- list(
-ID = 101,
-Name = "Gayathri",
-Salary = 45000,
+ID = 891,
+Name = "Goutham",
+Salary = 49000,
 Department = "IT"
 )
 employee
@@ -37,10 +37,10 @@ employee$Salary
 Patient Medical Record System (Lists)
 R program:
 patient <- list(
-PatientID = 202,
-Name = "Ravi",
-Age = 45,
-TestResults = c(120, 140, 130)
+PatientID = 6782,
+Name = "Ram",
+Age = 47,
+TestResults = c(149, 160, 130)
 )
 patient
 patient$TestResults
@@ -51,7 +51,7 @@ R program:
 Data frame is best for structured tabular data.
 students <- data.frame(
 RollNo = c(1, 2, 3),
-Name = c("Anitha", "Karthik", "Meena"),
+Name = c("Anjali", "Koushik", "Manisha"),
 Dept = c("CSE", "ECE", "IT"),
 Marks = c(85, 78, 92)
 )
@@ -61,7 +61,7 @@ students
 Sales Report System (Data Frames)
 R program:
 sales <- data.frame(
-Month = c("Jan", "Feb", "Mar"),
+Month = c("Oct", "Nov", "Dec"),
 Sales = c(50000, 62000, 58000)
 )
 total_sales <- sum(sales$Sales)
@@ -70,9 +70,9 @@ total_sales
 6.7
 E-Commerce Order System (Combination of Data Structures)
 R program:
-prices <- c(1200, 850, 560)
+prices <- c(2200, 1050, 760)
 customer <- list(
-CustomerID = 301,
+CustomerID = 38901,
 Name = "Anjali",
 City = "Chennai"
 )
