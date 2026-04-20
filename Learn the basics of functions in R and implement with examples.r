@@ -1,11 +1,11 @@
 3.1
 Bank Interest Calculator
 R Program:
-simple_interest <- function(p, r, t){
-si <- (p * r * t) / 100
+simple_interest <- function(k, n, o){
+si <- (k * n * o) / 100
 return(si)
 }
-simple_interest(10000, 5, 2)
+simple_interest(1000, 50, 2)
 
 3.2
 Student Result Processing
@@ -17,7 +17,7 @@ return("Pass")
 return("Fail")
 }
 }
-check_result(65)
+check_result(84)
 
 3.3
 Employee Salary Calculation
@@ -27,7 +27,7 @@ tax <- basic_salary * 0.10
 net <- basic_salary - tax
 return(net)
 }
-net_salary(30000)
+net_salary(25000)
 
 3.4
 Electricity Bill Generator
@@ -42,7 +42,7 @@ bill <- (100 * 2) + (100 * 3) + (units - 200) * 5
 }
 return(bill)
 }
-electricity_bill(250)
+electricity_bill(450)
 
 3.5
 Online Shopping Discount
@@ -57,7 +57,7 @@ discount <- 0
 }
 return(amount - discount)
 }
-final_amount(4500)
+final_amount(4900)
 
 3.6
 Temperature Conversion System
@@ -66,7 +66,7 @@ celsius_to_fahrenheit <- function(c){
 f <- (c * 9/5) + 32
 return(f)
 }
-celsius_to_fahrenheit(37)
+celsius_to_fahrenheit(39)
 
 3.7
 Grading System
@@ -82,7 +82,7 @@ if(marks >= 90){
 "Fail"
 }
 }
-assign_grade(88)
+assign_grade(79)
 
 3.8
 Voting Eligibility Checker
@@ -94,7 +94,7 @@ return("Eligible to Vote")
 return("Not Eligible to Vote")
 }
 }
-check_voting(17)
+check_voting(47)
 
 3.9
 Bank Loan EMI Calculator System
@@ -106,7 +106,7 @@ emi <- (principal * monthly_rate * (1 + monthly_rate)^months) /
 ((1 + monthly_rate)^months - 1)
 return(round(emi, 2))
 }
-calculate_emi(500000, 7.5, 10)
+calculate_emi(620000, 8.5, 10)
 
 3.10
 Hospital Patient Billing System Scenario
@@ -117,7 +117,7 @@ tax <- subtotal * 0.05
 total <- subtotal + tax
 return(total)
 }
-hospital_bill(500, 2000, 3)
+hospital_bill(450, 3000, 3)
 
 3.11
 Online Shopping Order Processing System
@@ -136,7 +136,7 @@ delivery <- 100
 final_amount <- cart_value - discount + delivery
 return(final_amount)
 }
-order_total(4200)
+order_total(4000)
 
 3.12
 University GPA Calculation System
@@ -167,7 +167,7 @@ bill <- bill * 1.10
 }
 return(bill)
 }
-smart_meter_bill(180, 150)
+smart_meter_bill(2000, 150)
 
 3.14
 Insurance Premium Calculation System
@@ -182,7 +182,7 @@ premium <- premium * 1.30
 }
 return(premium)
 }
-insurance_premium(5000, 55, TRUE)
+insurance_premium(4000, 45, TRUE)
 
 3.15
 Employee Payroll Processing System
@@ -195,7 +195,7 @@ tax <- gross * 0.12
 net <- gross - tax
 return(net)
 }
-payroll(40000)
+payroll(55000)
 
 3.16
 Smart City Water Usage Monitoring
@@ -209,4 +209,4 @@ if(litres <= 500){
 "Critical"
 }
 }
-water_usage_status(1200)
+water_usage_status(2200)
