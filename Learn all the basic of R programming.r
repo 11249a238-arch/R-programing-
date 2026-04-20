@@ -4,7 +4,11 @@ R Program:
 roll_no <- 328 # Integer
 name <- "priya" # Character
 cgpa <- 8.02 # Numeric
-pass <- TRUE # Logical
+pass <- TRUE# Logical
+roll_no
+name
+cgpa
+pass
 
 1.2
 Employee Salary Record
