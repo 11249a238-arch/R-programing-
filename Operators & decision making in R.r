@@ -1,8 +1,8 @@
 2.1
 Loan Eligibility Check
 R program:
-age <- 25
-income <- 35000
+age <- 30
+income <- 50000
 if(age > 21 & income > 30000){
 print("Eligible for Loan")
 } else {
@@ -12,7 +12,7 @@ print("Not Eligible for Loan")
 2.2
 Attendance Requirement
 R program:
-attendance <- 78
+attendance <- 72
 if(attendance >= 75){
 print("Eligible for Exam")
 } else {
@@ -22,7 +22,7 @@ print("Not Eligible for Exam")
 2.3
 Online Discount System
 R program:
-amount <- 4200
+amount <- 5450
 premium_member <- TRUE
 if(amount > 5000 | premium_member){
 print("Discount Applied")
@@ -33,7 +33,7 @@ print("No Discount")
 2.4
 Electricity Bill Slab
 R program:
-units <- 250
+units <- 270
 if(units < 100){
 print("Low Usage")
 } else if(units <= 300){
@@ -45,8 +45,8 @@ print("High Usage")
 2.5
 Employee Bonus Eligibility
 R program:
-experience <- 6
-rating <- 4.5
+experience <- 8
+rating <- 5.8
 if(experience > 5 & rating > 4){
 print("Bonus Eligible")
 } else {
@@ -56,7 +56,7 @@ print("Not Eligible for Bonus")
 2.6
 Password Validation
 R program:
-password<-"secure123"
+password<-"secure000"
 if(nchar(password) >= 8){
 print("Valid Password")
 } else {
@@ -66,17 +66,17 @@ print("Invalid Password")
 2.7
 Temperature Warning System
 R program:
-temperature <- 45
+temperature <- 42
 if(temperature < 0 | temperature > 40){
 print("Extreme Temperature Warning")
 } else {
 print("Normal Temperature")
 }
 
-2,8
+2.8
 Grading System
 R program:
-marks <- 82
+marks <- 75
 if(marks >= 90){
 grade <- "A"
 } else if(marks >= 75){
@@ -91,7 +91,7 @@ print(grade)
 2.9
 Bank Credit Card Approval System
 R program:
-age <- 35
+age <- 32
 income <- 40000
 credit_score <- 720
 if(age >= 21 & age <= 60 & income >= 25000 & credit_score >= 700){
@@ -103,7 +103,7 @@ print("Credit Card Rejected")
 2.10
 Hospital Patient Risk Classification
 R program:
-sugar <- 210
+sugar <- 240
 if(bp > 140 & sugar > 200){
 risk <- "High Risk"
 } else if((bp >= 120 & bp <= 140) | (sugar >= 140 & sugar <= 200)){
@@ -116,7 +116,7 @@ print(risk)
 2.11
 Smart Traﬃc Signal Control
 R program:
-vehicle_count <- 180
+vehicle_count <- 150
 if(vehicle_count > 200){
 print("Long Green Signal")
 } else if(vehicle_count >= 100){
@@ -128,8 +128,8 @@ print("Short Green Signal")
 2.12
 Employee Performance Appraisal System
 R program:
-attendance <- 92
-performance <- 8.5
+attendance <- 78
+performance <- 7.9
 project_completed <- TRUE
 if(attendance >= 90 & performance >= 8 & project_completed){
 print("Eligible for Appraisal")
@@ -153,7 +153,7 @@ print("Exam Allowed")
 Dynamic Pricing in Ride-Hailing App
 R program:
 high_demand <- TRUE
-available_drivers <- 30
+available_drivers <- 39
 if(high_demand & available_drivers < 50){
 print("Surge Pricing Applied")
 } else {
@@ -163,9 +163,9 @@ print("Normal Pricing")
 2.15
 Industrial Machine Safety System
 R program:
-temperature <- 75
-pressure <- 130
-vibration <- 6
+temperature <- 86
+pressure <- 150
+vibration <- 8
 if(temperature > 80 | pressure > 120 | vibration > 7){
 print("Machine Shutdown")
 } else {
@@ -175,9 +175,9 @@ print("Machine Running Normally")
 2.16
 University Admission Screening
 R program:
-entrance_score <- 78
-twelfth_marks <- 82
-age <- 22
+entrance_score <- 74
+twelfth_marks <- 80
+age <- 20
 if(entrance_score >= 70 & twelfth_marks >= 75 & age <= 25){
 print("Admission Granted")
 } else {
