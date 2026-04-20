@@ -100,7 +100,6 @@ products
 5.13
 Social Media Comment Moderation System
 R program:
-Program
 comments <- data.frame(
 User = c("A", "B", "C"),
 Comment = c(
